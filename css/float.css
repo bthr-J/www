@@ -1,0 +1,80 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-size: 16px;
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: normal;
+}
+/* 레이아웃 */
+.wrapper{
+  background-color: yellow;
+}
+.header, .visual, .main, .slogan, .footer{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: pink;
+  height: 10vh;
+}
+.visual {
+  background-color: lime;
+  height: 10vh;
+}
+.main {
+  background-color: skyblue;
+ /* 클래스 셀렉터 */
+ padding: 30px 15px;
+}
+.clearfix::after{
+  content: "";
+  background-color: black;
+  color: white;
+  clear: both;
+  display: block;
+/* 가짜 요소 셀렉터 : 컨텐트 속성 같이 써야함 */
+}
+/*
+.clearfix{
+  clear: both;
+   클리어 픽스가 있고 없고의 차이를 이해하자 !!
+} 
+*/
+.group{
+  height: 30vh;
+  float: left;
+  margin: 0 15px;
+}
+.group1{
+  background-color: rgba(255,255,255,.5);
+  width: 250px;
+}
+.group2{
+  background-color: hsla(120,70%,60%,.5);
+  width: 380px;
+}
+.group3{
+  background-color: tomato;
+  width: 190px;
+}
+
+.slogan {
+  background-color: blueviolet;
+  height: 10vh;
+  clear: both;
+}
+.footer{
+    background-color: #FFF;
+    height: 10vh;
+  }
+.footer-bg{
+  background-color: orange;
+}
