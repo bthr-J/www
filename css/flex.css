@@ -18,7 +18,7 @@ a{
   text-decoration: none;
 }
 /* 숨김 콘텐츠 */
-.readable-hidden {
+.readable-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -46,17 +46,14 @@ body {
   width: 940px;
   margin: 0 auto;
 }
-
-.header {
-  background-color: #FFF;
+.header{
+  background-color: #fff;
   padding: 0 30px 40px;
   position: relative;
 }
 /* 로고 */
 .logo{
-
-    padding: 45px 0 0  35px;
-  
+  padding: 45px 0 0 35px;
 }
 /* 멤버 링크 */
 .member{
@@ -74,45 +71,35 @@ body {
 .member a{
   padding: 5px 10px;
 }
-
 /* 메인 메뉴 */
 .menu{
-  display: flex;
-  background: linear-gradient(to bottom, #ffc15e 0%,#ffa011 35%,#ff9900 65%,#ffc15e 100%);
-  background-color: #ffc15e;
+  background: linear-gradient(to bottom, #ea892e 0%,#ce5327 35%,#ce5327 65%,#ea892e 100%);
+  background-color: #ce5327;
   border-top: 2px solid #000;
   border-radius: 0 0 5px 5px;
   margin-top: 10px;
   padding-left: 225px;
-  height: 47px;
+  display: flex;
   align-items: center;
+  height: 47px;
 }
 .menu-item{
-  border-left: 2px solid rgba(255,255,255,.5);
-  /* flex-basis: 200px;
-  flex-grow: 0;
-  flex-shrink: 1; */
+  border-left: 2px solid rgba(255, 255, 255, .5);
   flex: 1 1 auto;
   text-align: center;
   position: relative;
 }
 .menu-item-text{
-  /* justify-content: space-between; */
-  /* 메뉴에 height 47px 주지 않았는데 블록이 잡힌 이유를 모르겠다. */
-  /* padding: 0 20px; */
-  color: white;
+  color: #fff;
   font-weight: 700;
   font-size: 1.6rem;
-  text-shadow: 1px 0px 0 #181818, 0 1px 0 #181818, -1px 0 0 #181818, 0 -1px 0 #181818;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
 .sub-menu{
   position: absolute;
-  display: none;
   top: 35px;
   white-space: nowrap;
-}
-.sub-menu li{
-  display: inline-block;
+  display: none;
 }
 .sub-menu a{
   display: inline-block;
@@ -121,21 +108,20 @@ body {
 }
 .sub-menu a::before{
   font-family: "fontello";
-  content: "\e804";
+  content: "\f192";
 }
 .sub-menu a:hover:before{
-  content: "\e800";
+  content: '\e800';
 }
-
-.visual {
+.visual{
   background-color: lime;
   height: 10vh;
 }
-.main {
+.main{
   background-color: skyblue;
+  padding: 30px 0;
   display: flex;
   justify-content: space-evenly;
-  padding: 30px 0;
 }
 .group{
   height: 20vh;
@@ -145,22 +131,31 @@ body {
   width: 250px;
 }
 .group2{
-  background-color: hsla(120,70%,60%,.5);
+  background-color: hsla(120,70%,60%,0.5);
   width: 380px;
 }
 .group3{
   background-color: tomato;
   width: 190px;
 }
-
-.slogan {
+.slogan{
   background-color: blueviolet;
   height: 10vh;
 }
-.footer{
-    background-color: #FFF;
-    height: 10vh;
-  }
 .footer-bg{
   background-color: orange;
 }
+.footer{
+  background-color: silver;
+  height: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
